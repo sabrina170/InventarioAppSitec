@@ -116,65 +116,65 @@ $data=$resultado->fetchAll(PDO::FETCH_ASSOC);
 
                 <div class="form-row">
                 <div class="col">
-                <label for="nombre" class="col-form-label">Fecha:</label>
+                <label for="Fecha_Cliente" class="col-form-label">Fecha:</label>
                 <input type="date" class="form-control" id="Fecha_Cliente">
                 </div>
                 <div class="col">
-                <label for="pais" class="col-form-label">Codigo:</label>
+                <label for="Cod_Cliente" class="col-form-label">Codigo:</label>
                 <input type="number" class="form-control" id="Cod_Cliente">
                 </div>
                 </div>
 
                 <div class="form-row">
                 <div class="col">
-                <label for="edad" class="col-form-label">Nombre:</label>
+                <label for="Nombre_Cliente" class="col-form-label">Nombre:</label>
                 <input type="text" class="form-control" id="Nombre_Cliente">
                 </div>   
                 <div class="col">
-                <label for="nombre" class="col-form-label">Distrito:</label>
+                <label for="Direccion_Llegada" class="col-form-label">Distrito:</label>
                 <input type="text" class="form-control" id="Direccion_Llegada">
                 </div>
                 </div>
 
               
                 <div class="form-group">
-                <label for="pais" class="col-form-label">Direccion de Llegada:</label>
+                <label for="Distrito" class="col-form-label">Direccion de Llegada:</label>
                 <input type="text" class="form-control" id="Distrito">
                 </div>     
 
                 <div class="form-row">       
                 <div class="col">
-                <label for="edad" class="col-form-label">Latitud:</label>
-                <input type="number" class="form-control" id="Latitud">
+                <label for="Latitud" class="col-form-label" step='0.01' value='0.00' placeholder='0.00'>Latitud:</label>
+                <input type="float" class="form-control" id="Latitud">
                 </div>  
                 <div class="col">
-                <label for="nombre" class="col-form-label">Longitud:</label>
-                <input type="number" class="form-control" id="Longitud">
+                <label for="Longitud" class="col-form-label" step='0.01' value='0.00' placeholder='0.00'>Longitud:</label>
+                <input type="float" class="form-control" id="Longitud">
                 </div>
                 </div>
 
                 <div class="form-row">  
                 <div class="col">
-                <label for="pais" class="col-form-label">Gria Transportista:</label>
+                <label for="Gui_Trans" class="col-form-label">Gria Transportista:</label>
                 <input type="number" class="form-control" id="Gui_Trans">
                 </div>                
                 <div class="col">
-                <label for="edad" class="col-form-label">Guia Rem:</label>
+                <label for="Guia_Remi" class="col-form-label">Guia Rem:</label>
                 <input type="number" class="form-control" id="Guia_Remi">
                 </div>  
                 <div class="col">
-                <label for="edad" class="col-form-label">Guia Cliente:</label>
+                <label for="Guia_Cliente" class="col-form-label">Guia Cliente:</label>
                 <input type="number" class="form-control" id="Guia_Cliente">
                 </div>    
                 </div>
 
 
                 <div class="form-group">
-                <label for="edad" class="col-form-label">Estado:</label>
+                <label for="Estado" class="col-form-label">Estado:</label>
                 <input type="text" class="form-control" id="Estado">
                 </div>  
                 <div class="form-group">
-                <label for="edad" class="col-form-label">Observaciones:</label>
+                <label for="Observaciones" class="col-form-label">Observaciones:</label>
                 <input type="text" class="form-control" id="Observaciones">
                 </div>          
             </div>

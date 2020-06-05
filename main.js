@@ -46,11 +46,11 @@ $(document).on("click", ".btnEditar", function(){
     Id = parseInt(fila.find('td:eq(0)').text());
     Fecha_Cliente = fila.find('td:eq(1)').text();
     Cod_Cliente = parseInt(fila.find('td:eq(2)').text());
-    Nombre_Cliente= parseInt(fila.find('td:eq(3)').text());
+    Nombre_Cliente= fila.find('td:eq(3)').text();
     Direccion_Llegada = fila.find('td:eq(4)').text();
     Distrito = fila.find('td:eq(5)').text();
-    Latitud = parseInt(fila.find('td:eq(6)').text());
-    Longitud = parseInt(fila.find('td:eq(7)').text());
+    Latitud = parseFloat(fila.find('td:eq(6)').text());
+    Longitud = parseFloat(fila.find('td:eq(7)').text());
     Gui_Trans = parseInt(fila.find('td:eq(8)').text());
     Guia_Remi = parseInt(fila.find('td:eq(9)').text());
     Guia_Cliente = parseInt(fila.find('td:eq(10)').text());
